@@ -1,15 +1,15 @@
 /* IMPORT GOOGLE FONT */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 /*DEFINING CSS VARIABLES*/
-:root{
-    --white:hsl(0, 0%, 100%);
-    --Light-gray:hsl(212, 45%, 89%);
-    --Gray-blue:hsl(220, 15%, 55%);
-    --Dark-blue:hsl(218, 44%, 22%);
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Gray-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
 }
 
-body{
+body {
     background-color: var(--Light-gray);
     height: 100vh;
     display: flex;
@@ -18,32 +18,33 @@ body{
     font-family: Outfit, sans-serif;
 }
 
-.container{
+.container {
     background-color: var(--white);
     border-radius: 20px;
     padding: 15px 7px;
-    width:320px;
+    width: 320px;
     text-align: center;
-    }
-
-.img-container {
-   width:100%;
+    box-shadow: 5px 5px 20px var(--Gray-blue);
 }
 
-.qr-code-img{
-    width:300px;
+.img-container {
+    width: 100%;
+}
+
+.qr-code-img {
+    width: 300px;
     border-radius: 20px;
 }
 
-.title{
+.title {
     font-size: 25px;
-    font-weight:700;
-    opacity: 0.9;
+    font-weight: 700;
+    color: var(--Dark-blue);
 }
 
-.text{
+.text {
     font-size: 15px;
     font-weight: 400;
     max-width: 280px;
-    opacity: 0.6;
+    color: var(--Gray-blue);
 }
