@@ -1,0 +1,49 @@
+/* IMPORT GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); 
+
+/*DEFINING CSS VARIABLES*/
+:root{
+    --white:hsl(0, 0%, 100%);
+    --Light-gray:hsl(212, 45%, 89%);
+    --Gray-blue:hsl(220, 15%, 55%);
+    --Dark-blue:hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--Light-gray);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit, sans-serif;
+}
+
+.container{
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 15px 7px;
+    width:320px;
+    text-align: center;
+    }
+
+.img-container {
+   width:100%;
+}
+
+.qr-code-img{
+    width:300px;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight:700;
+    opacity: 0.9;
+}
+
+.text{
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 280px;
+    opacity: 0.6;
+}
